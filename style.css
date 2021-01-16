@@ -1,5 +1,10 @@
 *{
-    padding: 0%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: non;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 ul{
@@ -10,4 +15,17 @@ ul{
 
 li{
     display: inline;
+    float: left;
+}
+
+a{
+    display: block;
+    padding: 8px;
+    background-color: antiquewhite;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
 }
