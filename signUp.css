@@ -1,0 +1,89 @@
+body {
+   padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: blue;
+  background-image:  url(https://www.teahub.io/photos/full/361-3613536_league-of-legends-backgrounds.jpg);
+  text-decoration: none;
+  }
+
+.whole_nav {
+	background-color:black;
+	height: 2.5em;
+	padding-top: 5px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ 
+}
+
+li {
+    display: inline-table;
+
+}
+
+.navBarElement{
+  
+    display: block;
+    padding: 8px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;  
+    text-decoration: none;
+}
+
+.navBarElement:hover {
+  background-color: rgb(0, 3, 202);
+  
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.SignUpContainer {
+  background-color: white;
+  margin: 3%;
+  padding-left: 3%;
+  width: 90%;
+  height:  90%;
+  opacity: 0.9;
+  border-width: medium;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.outerSignUpContainer{
+  margin: auto;
+  
+}
+
+.emailText {
+  margin: auto;
+  margin-top: 7%;
+  color: black;
+  width: 25%;
+}
+
+.registerButton {
+  margin-top: 10%;
+  background-color: green;
+  color: white;
+  
+}
+
+.registerButton:hover {
+  background-color: green;  
+  
+}
+.entireNav {
+  background-color: black;
+}
