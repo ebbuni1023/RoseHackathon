@@ -83,6 +83,18 @@ a:hover {
 h3{
   font-size: 3em;
   padding: 0 90px;
-  background-color: #FFFFFF;
+  background-color: #000000;
+  color: white;
 }
 
+table, th{
+   border:1px solid white;
+   border-collapse: collapse;
+   background-color: #000000;
+   color:white ;
+   padding: 17px;
+}
+
+th{
+   text-align: left;
+}
