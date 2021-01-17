@@ -3,12 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="SignUp.css">
 
         <title>Rose HACK</title>
     </head>
 
     <body>
+      <div class = "entireNav">
         <div class = "top_nav">
             <ul>
                 <div class = "left">
@@ -28,12 +29,14 @@
                 <li class = "Mission"><a href = "Mission.html">Our Mission</a></li>
             </ul>
         </div>
-        
+      </div>  
         <!--Sign up page  -->
-        
+      <div class = "outerSignUpContainer"> 
         <div class = "SignUpContainer">
  <br>
-			<form>
+           
+			<form class = "emailText">
+      
       <h3>Sign up with email and password</h3>
       
         <label for "userEmail">Email: </label><br>
@@ -44,11 +47,13 @@
 				<label for "userPassword">Password:</label><br>
 				<input type = "password" id = "userPassword">
 <br>
-				<button onclick = "registerUser">Register</button>
+				<button onclick = "registerUser()" class = "registerButton" ><a href = "HomePage.html">Register</a></button>
 			</form>
-          
+       
           
           
         </div>
-    </body>
+      </div>
+    
+	</body>
 </html>
