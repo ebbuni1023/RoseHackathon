@@ -80,6 +80,10 @@ a:hover {
 
 /* FORUMS */
 
+#Forums{
+   background-color: #000000;
+   margin:25px;
+}
 h3{
   font-size: 3em;
   padding: 0 90px;
@@ -97,4 +101,31 @@ table, th{
 
 th{
    text-align: left;
+}
+
+.Forum_answer{
+   font-size: 2em;
+   padding: 25px 20px 100%;
+   background-color: gray;
+   color: black;
+   margin: 30px 30px;
+}
+
+.wrapper .Forum_answer p{
+   padding: 0 10%;
+   border: solid;
+   border-width: 3px;
+   border-radius: 10px;
+}
+
+.wrapper .Forum_byme p{
+   padding: 0 10px;
+   float: right;
+   border: solid;
+   border-width: 3px;
+   border-radius: 10px;
+}
+
+h2{
+   color: white;
 }
